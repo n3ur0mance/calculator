@@ -1,0 +1,23 @@
+form {
+    margin-bottom: 10px;
+}
+input {
+    width: 279px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+div {
+    width: 285px;
+}
+button {
+    width: 57px;
+    height: 30px;
+    border-radius: 3px;
+}
+button[data-digit] {
+    background-color: rgb(255, 255, 255);
+}
+button[data-operator] {
+    background-color: rgb(199, 199, 199);
+}
